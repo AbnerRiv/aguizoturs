@@ -1,22 +1,16 @@
 <script setup lang="ts">
 import Header from '@/components/header/Header.vue';
 import Footer from './components/footer/Footer.vue';
+import { RouterView } from 'vue-router';
 </script>
 
 <template>
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
     <Header />
-
+      <main class="h-full">
+        <router-view ></router-view>
+      </main>
     <Footer />
-</body>
-</html>
 </template>
 
 <style lang="scss">

@@ -1,0 +1,7 @@
+<div class="flex border-left relative" :class="{'w-1/2': !props.isFullWidth, 'w-full': props.isFullWidth}">
+    <FontAwesomeIcon :icon="faArrowLeft" class="absolute left-1 top-[50%] cursor-pointer bg-white" @click="prevImage()"/>
+    <div class="ease-animation w-full !flex !justify-center !flex-row items-center">
+        <img :src="images[selectedImageIndex]" class="!w-[40dvw] !h-[200px]">    
+    </div>
+    <FontAwesomeIcon :icon="faArrowRight" class="absolute right-1 top-[50%] cursor-pointer bg-white" @click="nextImage()"/>
+</div>

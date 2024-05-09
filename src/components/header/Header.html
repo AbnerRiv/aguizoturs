@@ -1,4 +1,4 @@
-<header class="w-full flex flex-row justify-between items-center !px-2 bg-[--accent-color]">
+<header class="w-full flex flex-row justify-between items-center !px-2 bg-[--accent-color] border-bottom">
     <button class="bg-[--secondary-color] text-black font-bold !py-2 !px-4 rounded">
         Logo
     </button>
@@ -9,7 +9,7 @@
         Turismo
     </button>
 
-    <div class="dropdown bg-[--secondary-color] !py-2 !px-4 rounded">
+    <div class="dropdown bg-[--secondary-color] !py-2 !px-4 rounded cursor-pointer">
       <span @click="showDropdownContent()">
         <FontAwesomeIcon :icon="faLanguage" />
       </span>
