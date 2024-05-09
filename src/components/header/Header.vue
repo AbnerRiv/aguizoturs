@@ -14,6 +14,7 @@ function showDropdownContent(){
 }
 
 function selectLanguage(language: string){
+    console.log('Selected Language:', language)
     let elem = document.getElementById('lang-dropdown');
     elem?.classList.add('hidden')
     elem?.classList.remove('flex')

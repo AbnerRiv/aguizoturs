@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { ref } from 'vue';
-import { defineProps } from 'vue';
 
 const props = defineProps({
     isFullWidth: {
